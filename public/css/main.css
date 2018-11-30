@@ -133,6 +133,18 @@ body .content {
   min-height: 100vh;
 }
 
+.footer {
+  color: white;
+  height: 100px;
+  background-color: #353544;
+  padding-top: 19px;
+  padding-left: 30px;
+}
+
+.footer a {
+  color: white;
+}
+
 .page-entry__title {
   color: #FFF;
   text-transform: uppercase;
