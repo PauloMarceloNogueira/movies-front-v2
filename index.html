@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./public/css/style.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300|Montserrat:100" rel="stylesheet">
+  <title>Movies</title>
+</head>
+<body>
+  <div class="header">
+    <div class="header__logo"></div>
+    <div class="header__menu">
+      <ul class="header__menu__list" role="navigation">
+        <li class="header__menu__list-item">lançamentos</li>
+        <li class="header__menu__list-item">
+          playlists
+          <svg class="svg-icon" width="25" height="9" viewBox="0 0 14 9"><path fill="currentColor" stroke="currentStroke" d="M1 2 7 8 13 2 12 1 7 6 2 1"></path></svg>
+        </li>
+        <li class="header__menu__list-item">
+          gêneros
+          <svg class="svg-icon" width="25" height="9" viewBox="0 0 14 9"><path fill="currentColor" stroke="currentStroke" d="M1 2 7 8 13 2 12 1 7 6 2 1"></path></svg>
+        </li>
+        <li class="header__menu__list-item">na tv</li>
+      </ul>
+    </div>
+    <div class="header__search">
+      <form class="header__search__form" role="search" aria-label="Buscar">
+        <input type="text" class="header__search__input">
+        <button class="header__search__icon">
+            <svg class="search-icon svg-icon" width="100%" height="100%" viewBox="0 0 32 32" data-reactid="28"><path fill="none" stroke="currentColor" d="m12,12m-10,0a10,10 0 1,0 20,0a10,10 0 1,0 -20,0zm18,7l10,10" data-reactid="29"></path></svg>
+        </button>
+      </form>
+    </div>
+    <div class="header__account">
+      <div class="header__account__profile-picture">
+          <img src="https://cdn.telecineplay.com.br/isl/api/v1/dataservice/ResizeImage/$value?Format='png'&amp;Quality=90&amp;ImageId='147681'&amp;EntityType='Item'&amp;EntityId='5301'&amp;Width=70&amp;Height=70&amp;device='web_browser'&amp;subscriptions='Anonymous'&amp;ResizeAction='fill'&amp;HorizontalAlignment='center'&amp;VerticalAlignment='top'" alt="Imagem Avatar - Chapeleiro" width="70" height="70" srcset="https://cdn.telecineplay.com.br/isl/api/v1/dataservice/ResizeImage/$value?Format='png'&amp;Quality=90&amp;ImageId='147681'&amp;EntityType='Item'&amp;EntityId='5301'&amp;Width=70&amp;Height=70&amp;device='web_browser'&amp;subscriptions='Anonymous'&amp;ResizeAction='fill'&amp;HorizontalAlignment='center'&amp;VerticalAlignment='top' 1x, https://cdn.telecineplay.com.br/isl/api/v1/dataservice/ResizeImage/$value?Format='png'&amp;Quality=75&amp;ImageId='147681'&amp;EntityType='Item'&amp;EntityId='5301'&amp;Width=140&amp;Height=140&amp;device='web_browser'&amp;subscriptions='Anonymous'&amp;ResizeAction='fill'&amp;HorizontalAlignment='center'&amp;VerticalAlignment='top' 2x">
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content__main">
+      <section class="page-entry">
+        <h4 class="page-entry__title">
+          <a href="#" class="page-entry__title--link">
+            lançamentos
+            <svg class="svg-icon chevron-right" width="16px" height="14px" viewBox="0 0 22 22"><path fill="currentColor" stroke="currentStroke" d="m17.25,11l-10.5,10.5l-2,-2l8.5,-8.5l-8.5,-8.5l2,-2"></path></svg>
+          </a>
+        </h4>
+        <div class="cards-entry">
+          <a href="#" class="cards-entry__item cards-entry__item--large">
+            <div id="item-1" class="cards-entry__item__content"></div>
+          </a>
+          <a href="#" class="cards-entry__item cards-entry__item--large">
+              <div id="item-2" class="cards-entry__item__content"></div>
+          </a>
+          <a href="#" class="cards-entry__item cards-entry__item--large">
+              <div id="item-3" class="cards-entry__item__content"></div>
+          </a>
+          <a href="#" class="cards-entry__item cards-entry__item--large">
+              <div id="item-4" class="cards-entry__item__content"></div>
+          </a>
+          <a href="#" class="cards-entry__item cards-entry__item--large">
+              <div id="item-5" class="cards-entry__item__content"></div>
+          </a>
+        </div>
+      </section>
+      <section class="page-entry">
+          <h4 class="page-entry__title">
+            <a href="#" class="page-entry__title--link">
+              kids
+              <svg class="svg-icon chevron-right" width="16px" height="14px" viewBox="0 0 22 22"><path fill="currentColor" stroke="currentStroke" d="m17.25,11l-10.5,10.5l-2,-2l8.5,-8.5l-8.5,-8.5l2,-2"></path></svg>
+            </a>
+          </h4>
+          <div class="cards-entry">
+              <a href="#" class="cards-entry__item cards-entry__item--xlarge">
+                <div class="cards-entry__item__content"></div>
+              </a>
+              <a href="#" class="cards-entry__item cards-entry__item--large">
+                  <div class="cards-entry__item__content"></div>
+              </a>
+              <a href="#" class="cards-entry__item cards-entry__item--large">
+                  <div class="cards-entry__item__content"></div>
+              </a>
+              <a href="#" class="cards-entry__item cards-entry__item--large">
+                  <div class="cards-entry__item__content"></div>
+              </a>
+              <a href="#" class="cards-entry__item cards-entry__item--large">
+                  <div class="cards-entry__item__content"></div>
+              </a>
+            </div>
+        </section>
+    </div>
+  </div>
+  
+</body>
+</html>

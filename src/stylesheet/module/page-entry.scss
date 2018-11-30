@@ -1,0 +1,13 @@
+.page-entry {
+  &__title {
+    color: #FFF;
+    text-transform: uppercase;
+    &--link {
+      text-decoration: none;
+      color: #FFF!important;
+      &svg {
+        padding-top: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,205 @@
+body {
+  background-color: #1e1f26;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+}
+
+body .content {
+  padding-left: 40px;
+  margin: auto;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: #333340;
+  padding-top: 10px;
+  display: flex;
+}
+
+.header__logo {
+  width: 15%;
+  display: inline-block;
+  background-image: url("../../src/images/tcplay.png");
+  background-repeat: no-repeat;
+  background-size: 7em;
+  background-position: 50% 30%;
+}
+
+.header__menu {
+  width: 50%;
+  display: inline-block;
+}
+
+.header__menu__list {
+  padding-bottom: 0;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.header__menu__list-item {
+  display: inline;
+  color: rgba(235, 235, 235, 0.85);
+  font-weight: 400;
+  list-style: none;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+.header__menu__list-item:nth-child(2):hover svg {
+  color: red;
+}
+
+.header__menu__list-item:nth-child(3):hover svg {
+  color: red;
+}
+
+.header__search {
+  padding-top: 10px;
+  margin-top: 7px;
+  width: 15%;
+  height: 28px;
+  padding: 0 6px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  position: relative;
+}
+
+.header__search:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header__search__form {
+  box-sizing: inherit;
+  padding: 0;
+  position: relative;
+  margin: 0;
+  width: 100%;
+}
+
+.header__search__input {
+  background: none;
+  border: none;
+  color: inherit;
+  flex: 1 1 auto;
+  font-size: 14px;
+  height: 26px;
+  line-height: 26px;
+  outline: none;
+  font-family: 'Montserrat';
+}
+
+.header__search__icon {
+  background-color: transparent;
+  display: inline-block;
+  margin-top: -7px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 25px;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.header__account {
+  width: 100px;
+  height: 100%;
+  text-align: right;
+}
+
+.header__account__profile-picture {
+  padding-top: 7px;
+  cursor: pointer;
+}
+
+.header__account__profile-picture img {
+  width: 30%;
+  height: 30%;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-entry__title {
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.page-entry__title--link {
+  text-decoration: none;
+  color: #FFF !important;
+}
+
+.page-entry__title--linksvg {
+  padding-top: 10px;
+}
+
+.cards-entry {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+}
+
+.cards-entry__item {
+  display: block;
+  padding-right: 10px;
+}
+
+.cards-entry__item #item-1 {
+  background: url("../../src/images/a_forma_da_agua.jpg");
+  background-size: 100%;
+}
+
+.cards-entry__item #item-2 {
+  background: url("../../src/images/a_ultima_jornada.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.cards-entry__item #item-3 {
+  background: url("../../src/images/alguem_como_eu.png");
+  background-size: 100%;
+}
+
+.cards-entry__item #item-4 {
+  background: url("../../src/images/atos_de_violencia.jpg");
+  background-size: 100%;
+}
+
+.cards-entry__item #item-5 {
+  background: url("../../src/images/pantera_negra.jpg");
+  background-size: 100%;
+}
+
+.cards-entry__item--large {
+  height: 300px;
+  width: 320px;
+}
+
+.cards-entry__item--small {
+  height: 150px;
+  width: 320px;
+}
+
+.cards-entry__item--xlarge {
+  height: 300px;
+  width: 600px;
+}
+
+.cards-entry__item__content {
+  width: 100%;
+  height: 100%;
+}
